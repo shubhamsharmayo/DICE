@@ -1,0 +1,248 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  
+  background: linear-gradient(120deg, #aa0080, #9b3838, rgb(4, 1, 180));
+	background-size: 400% 400%;
+	animation: gradient 12s alternate infinite;
+	height: 95vh;
+}
+
+#h1 {
+  margin: 0px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 3rem;
+  color: #49c449;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  filter: drop-shadow(0 0 6px black);
+  animation: h1s 6s alternate infinite;
+}
+@keyframes h1s{
+  0%{
+    filter: drop-shadow(0px 0 10px rgb(255, 255, 255));
+  }
+  25%{
+    filter: drop-shadow(0 0px 15px rgb(206, 136, 136));
+  }
+  50%{
+    filter: drop-shadow(0px 0px 15px rgb(136, 122, 122));
+  }
+  100%{
+    filter: drop-shadow(0px 0px 20px rgb(0, 0, 0))
+  }
+}
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+  
+}
+@keyframes imgs{
+  0%{
+    filter: drop-shadow(0 0 10px rgb(19, 201, 19));
+  }
+  50%{
+    filter: drop-shadow(0 0 15px rgb(19, 201, 19));
+  }
+  100%{
+    filter: drop-shadow(0 0 20px rgb(19, 201, 19))
+  }
+}
+footer {
+  margin-top: 1%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  
+}
+img:hover{
+  width: 70.5%;
+  filter: drop-shadow(0 0 50px rgb(255, 0, 170));
+  animation: imgs 452ms alternate infinite
+}
+h1:hover{
+  color: rgb(173, 0, 0);
+}
+.btncont{
+  display: flex;
+  justify-content: center;
+  height: 65px;
+  
+  margin-bottom: 0;
+  align-items: center;
+}
+.btn{
+  height: 40px;
+  border: solid #232931 3px;
+  border-radius: 10%;
+  background-color: #a80000;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  color: rgb(33, 255, 3);
+  box-shadow: rgb(0, 235, 0) 0px 5px 6px 0px;
+  filter: drop-shadow(0 0 50px rgb(255, 0, 170));
+  animation: imgs 462ms alternate infinite
+}
+.btn:hover{
+  color: white;
+  text-shadow: black 0px 8px 5px ;
+}
+.btn1{
+  box-shadow: rgb(245, 0, 0) 0px 5px 6px 0px;
+}
+
+.body1{
+  
+  margin: 0;
+  
+  
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@media (min-width: 720px) and (max-width: 1080px){
+  .dice{
+    display: block; 
+ }
+ img {
+  width: 70%;
+  
+}
+.btncont{
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  
+  margin-bottom: 0;
+  align-items: center;
+}
+.btn{
+  height: 66px;
+  width: 150px;
+  border: solid #232931 3px;
+  border-radius: 10%;
+  background-color: #a80000;
+  font-family: 'Indie Flower', cursive;
+  font-size: 35px;
+  color: rgb(33, 255, 3);
+  box-shadow: rgb(0, 235, 0) 0px 5px 6px 0px;
+}
+h1:hover{
+  color: rgb(173, 0, 0);
+}
+.btn1{
+  box-shadow: rgb(245, 0, 0) 0px 5px 6px 0px;
+}
+#h1 {
+  margin: 0px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 3rem;
+  color: #49c449;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  filter: drop-shadow(0 0 6px black);
+  animation: h1s 6s alternate infinite;
+}
+@keyframes h1s{
+  0%{
+    filter: drop-shadow(0px 0 10px rgb(255, 255, 255));
+  }
+  25%{
+    filter: drop-shadow(0 0px 15px rgb(206, 136, 136));
+  }
+  50%{
+    filter: drop-shadow(0px 0px 15px rgb(136, 122, 122));
+  }
+  100%{
+    filter: drop-shadow(0px 0px 20px rgb(0, 0, 0))
+  }
+}
+}
+@media (min-width: 480px) and (max-width: 720px){
+  .dice{
+    display: block; 
+ }
+ h1:hover{
+  color: rgb(173, 0, 0);
+}
+ img {
+  width: 80%;
+}
+.btncont{
+  display: flex;
+  justify-content: center;
+  height: 80px; 
+  margin-bottom: 0;
+  align-items: center;
+}
+.btn{
+  height: 66px;
+  width: 150px;
+  border: solid #232931 3px;
+  border-radius: 10%;
+  background-color: #a80000;
+  font-family: 'Indie Flower', cursive;
+  font-size: 35px;
+  color: rgb(33, 255, 3);
+  box-shadow: rgb(0, 235, 0) 0px 5px 6px 0px;
+}
+.btn1{
+  box-shadow: rgb(245, 0, 0) 0px 5px 6px 0px;
+}
+#h1 {
+  margin: 0px; 
+  padding: 0px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 3rem;
+  color: #49c449;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  filter: drop-shadow(0 0 6px black);
+  animation: h1s 6s alternate infinite;
+}
+@keyframes h1s{
+  0%{
+    filter: drop-shadow(0px 0 10px rgb(255, 255, 255));
+  }
+  25%{
+    filter: drop-shadow(0 0px 15px rgb(206, 136, 136));
+  }
+  50%{
+    filter: drop-shadow(0px 0px 15px rgb(136, 122, 122));
+  }
+  100%{
+    filter: drop-shadow(0px 0px 20px rgb(0, 0, 0))
+  }
+}
+}
+
